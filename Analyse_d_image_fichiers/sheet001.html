@@ -1,0 +1,799 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../Analyse_d_image.html">
+<link rel=File-List href=filelist.xml>
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+x\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:" ";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../Analyse_d_image.html");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#0563C1" vlink="#954F72">
+
+<table border=0 cellpadding=0 cellspacing=0 width=834 style='border-collapse:
+ collapse;table-layout:fixed;width:625pt'>
+ <col width=40 style='mso-width-source:userset;mso-width-alt:1462;width:30pt'>
+ <col width=64 span=2 style='width:48pt'>
+ <col width=28 style='mso-width-source:userset;mso-width-alt:1024;width:21pt'>
+ <col width=163 style='mso-width-source:userset;mso-width-alt:5961;width:122pt'>
+ <col width=155 style='mso-width-source:userset;mso-width-alt:5668;width:116pt'>
+ <col width=64 span=5 style='width:48pt'>
+ <tr height=40 style='mso-height-source:userset;height:30.0pt'>
+  <td height=40 width=40 style='height:30.0pt;width:30pt'><a name="RANGE!A1"></a></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=28 style='width:21pt'></td>
+  <td width=163 style='width:122pt'></td>
+  <td width=155 style='width:116pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=42 style='height:31.5pt'>
+  <td height=42 style='height:31.5pt'></td>
+  <td class=xl145 colspan=5 style='mso-ignore:colspan'>Module IPSI1 : Analyse
+  d'image</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=25 style='height:18.75pt'>
+  <td height=25 style='height:18.75pt'></td>
+  <td class=xl142 colspan=3 style='mso-ignore:colspan'>Année 2020 - 2021</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 style='height:23.25pt'></td>
+  <td class=xl146 colspan=4 style='mso-ignore:colspan'>Exercices - Les bases</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=2 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl147 colspan=4 style='mso-ignore:colspan'>Si quelqu'un possède un
+  corriger, on peut l'ajouter ;)</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 style='height:23.25pt'></td>
+  <td class=xl146 colspan=4 style='mso-ignore:colspan'>Exercices - Morphologie</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 colspan=2 style='height:23.25pt;mso-ignore:colspan'></td>
+  <td class=xl143 colspan=3 style='mso-ignore:colspan'>Exercice 1 : Squelette</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=4 rowspan=3 height=120 width=319 style='mso-ignore:colspan-rowspan;
+  height:90.0pt;width:239pt'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+   coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+   filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="Rectangle_x0020_1" o:spid="_x0000_s1043" type="#_x0000_t75"
+   href="sheet002.html#RANGE!A1" style='position:absolute;margin-left:41.25pt;
+   margin-top:9pt;width:183.75pt;height:1in;z-index:1;visibility:visible;
+   mso-wrap-style:square;v-text-anchor:top' o:gfxdata="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
+" o:button="t" o:insetmode="auto">
+   <v:fill o:detectmouseclick="t"/>
+   <v:imagedata src="image001.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=55 height=12></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td><a href="sheet002.html#RANGE!A1"><img border=0 width=245 height=96
+    src=image002.png v:shapes="Rectangle_x0020_1"></a></td>
+    <td width=19></td>
+   </tr>
+   <tr>
+    <td height=12></td>
+   </tr>
+  </table>
+  </span><![endif]><!--[if !mso & vml]><span style='width:239.25pt;height:90.0pt'></span><![endif]--></td>
+  <td colspan=4 rowspan=3 height=120 width=347 style='mso-ignore:colspan-rowspan;
+  height:90.0pt;width:260pt'><!--[if gte vml 1]><v:shape id="Rectangle_x0020_2"
+   o:spid="_x0000_s1044" type="#_x0000_t75" href="sheet003.html#RANGE!A1"
+   style='position:absolute;margin-left:35.25pt;margin-top:9pt;width:183.75pt;
+   height:1in;z-index:2;visibility:visible;mso-wrap-style:square;
+   v-text-anchor:top' o:gfxdata="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
+" o:button="t" o:insetmode="auto">
+   <v:fill o:detectmouseclick="t"/>
+   <v:imagedata src="image003.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=47 height=12></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td><a href="sheet003.html#RANGE!A1"><img border=0 width=245 height=96
+    src=image004.png v:shapes="Rectangle_x0020_2"></a></td>
+    <td width=55></td>
+   </tr>
+   <tr>
+    <td height=12></td>
+   </tr>
+  </table>
+  </span><![endif]><!--[if !mso & vml]><span style='width:260.25pt;height:90.0pt'></span><![endif]--></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 style='height:60.0pt'></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 colspan=2 style='height:23.25pt;mso-ignore:colspan'></td>
+  <td class=xl143 colspan=4 style='mso-ignore:colspan'>Exercice 2 : Distance au
+  fond</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=4 rowspan=3 height=120 width=319 style='mso-ignore:colspan-rowspan;
+  height:90.0pt;width:239pt'><!--[if gte vml 1]><v:shape id="Rectangle_x0020_3"
+   o:spid="_x0000_s1045" type="#_x0000_t75" href="sheet004.html#RANGE!A1"
+   style='position:absolute;margin-left:41.25pt;margin-top:9pt;width:183.75pt;
+   height:1in;z-index:3;visibility:visible;mso-wrap-style:square;
+   v-text-anchor:top' o:gfxdata="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
+" o:button="t" o:insetmode="auto">
+   <v:fill o:detectmouseclick="t"/>
+   <v:imagedata src="image005.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=55 height=12></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td><a href="sheet004.html#RANGE!A1"><img border=0 width=245 height=96
+    src=image006.png v:shapes="Rectangle_x0020_3"></a></td>
+    <td width=19></td>
+   </tr>
+   <tr>
+    <td height=12></td>
+   </tr>
+  </table>
+  </span><![endif]><!--[if !mso & vml]><span style='width:239.25pt;height:90.0pt'></span><![endif]--></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 style='height:60.0pt'></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 style='height:23.25pt'></td>
+  <td class=xl146 colspan=4 style='mso-ignore:colspan'>Exercices - Convolution</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='mso-height-source:userset;height:23.25pt'>
+  <td height=31 colspan=2 style='height:23.25pt;mso-ignore:colspan'></td>
+  <td class=xl143 colspan=3 style='mso-ignore:colspan'>Exercice 1 :</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=3 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl147 colspan=3 style='mso-ignore:colspan'>Si quelqu'un possède un
+  corriger, on peut l'ajouter ;)</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 colspan=2 style='height:23.25pt;mso-ignore:colspan'></td>
+  <td class=xl143 colspan=3 style='mso-ignore:colspan'>Exercice 2 :</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=4 rowspan=3 height=120 width=319 style='mso-ignore:colspan-rowspan;
+  height:90.0pt;width:239pt'><!--[if gte vml 1]><v:shape id="Rectangle_x0020_5"
+   o:spid="_x0000_s1046" type="#_x0000_t75" href="sheet005.html#RANGE!A1"
+   style='position:absolute;margin-left:41.25pt;margin-top:9pt;width:183.75pt;
+   height:1in;z-index:4;visibility:visible;mso-wrap-style:square;
+   v-text-anchor:top' o:gfxdata="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
+" o:button="t" o:insetmode="auto">
+   <v:fill o:detectmouseclick="t"/>
+   <v:imagedata src="image007.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=55 height=12></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td><a href="sheet005.html#RANGE!A1"><img border=0 width=245 height=96
+    src=image008.png v:shapes="Rectangle_x0020_5"></a></td>
+    <td width=19></td>
+   </tr>
+   <tr>
+    <td height=12></td>
+   </tr>
+  </table>
+  </span><![endif]><!--[if !mso & vml]><span style='width:239.25pt;height:90.0pt'></span><![endif]--></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 style='height:60.0pt'></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 style='height:23.25pt'></td>
+  <td class=xl146 colspan=4 style='mso-ignore:colspan'>Exercices - Analyse</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 colspan=2 style='height:23.25pt;mso-ignore:colspan'></td>
+  <td class=xl143 colspan=3 style='mso-ignore:colspan'>Exercice 1 :</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=3 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td>1)</td>
+  <td colspan=2 style='mso-ignore:colspan'>Parcours colonne après colonne.</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=3 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td>2)</td>
+  <td>Périmètre v8.</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=3 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td>3)</td>
+  <td colspan=4 style='mso-ignore:colspan'>Les objets ne faisant que 1pxl ont
+  un prérimètre de 0 (objet 7).</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td colspan=7 style='mso-ignore:colspan'>Les objets ne faisant que 1pxl
+  d'épaisseur, le périmètre correspond à l'allé retour (obj 1, 8, 5).</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 colspan=2 style='height:23.25pt;mso-ignore:colspan'></td>
+  <td class=xl143 colspan=3 style='mso-ignore:colspan'>Exercice 2 :</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=4 rowspan=3 height=120 width=319 style='mso-ignore:colspan-rowspan;
+  height:90.0pt;width:239pt'><!--[if gte vml 1]><v:shape id="Rectangle_x0020_7"
+   o:spid="_x0000_s1047" type="#_x0000_t75" href="sheet006.html#RANGE!A1"
+   style='position:absolute;margin-left:41.25pt;margin-top:9pt;width:183.75pt;
+   height:1in;z-index:5;visibility:visible;mso-wrap-style:square;
+   v-text-anchor:top' o:gfxdata="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
+" o:button="t" o:insetmode="auto">
+   <v:fill o:detectmouseclick="t"/>
+   <v:imagedata src="image009.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=55 height=12></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td><a href="sheet006.html#RANGE!A1"><img border=0 width=245 height=96
+    src=image010.png v:shapes="Rectangle_x0020_7"></a></td>
+    <td width=19></td>
+   </tr>
+   <tr>
+    <td height=12></td>
+   </tr>
+  </table>
+  </span><![endif]><!--[if !mso & vml]><span style='width:239.25pt;height:90.0pt'></span><![endif]--></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 style='height:60.0pt'></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=3 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td>3)</td>
+  <td>Surface :<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl168>4 - 8</td>
+  <td class=xl158 align=right>20%</td>
+  <td colspan=4 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td>Euler :</td>
+  <td class=xl139>8</td>
+  <td class=xl158 align=right>10%</td>
+  <td colspan=4 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td>Projection horizontal :</td>
+  <td class=xl140>0 - 3 - 4 - 6 - 8 - 9</td>
+  <td class=xl158 align=right>60%</td>
+  <td colspan=4 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td>Projection vertical :</td>
+  <td class=xl140>0 - 1 - 4 - 6 - 7 - 8 - 9</td>
+  <td class=xl158 align=right>70%</td>
+  <td colspan=4 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td>Combinaison des 4 :</td>
+  <td class=xl169>0 - 1 - 3 - 4 - 6 - 7 - 8 - 9</td>
+  <td class=xl158 align=right>80%</td>
+  <td colspan=4 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td colspan=5 style='mso-ignore:colspan'>Reconnaissance impossible avec ces
+  signatures. Reconnaissance maximale : 80%.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td colspan=5 style='mso-ignore:colspan'>Il faudrait ajouter une dernière
+  signature afin de discriminer le 2 et le 5.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=11 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 colspan=2 style='height:23.25pt;mso-ignore:colspan'></td>
+  <td class=xl143 colspan=3 style='mso-ignore:colspan'>Exercice 3 :</td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=4 rowspan=3 height=120 width=319 style='mso-ignore:colspan-rowspan;
+  height:90.0pt;width:239pt'><!--[if gte vml 1]><v:shape id="Rectangle_x0020_8"
+   o:spid="_x0000_s1048" type="#_x0000_t75" href="sheet007.html#RANGE!A1"
+   style='position:absolute;margin-left:41.25pt;margin-top:9pt;width:183.75pt;
+   height:1in;z-index:6;visibility:visible;mso-wrap-style:square;
+   v-text-anchor:top' o:gfxdata="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
+cmVsc1BLBQYAAAAABQAFAD4BAADnBwAAAAA=
+" o:button="t" o:insetmode="auto">
+   <v:fill o:detectmouseclick="t"/>
+   <v:imagedata src="image011.png" o:title=""/>
+   <o:lock v:ext="edit" aspectratio="f"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=55 height=12></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td><a href="sheet007.html#RANGE!A1"><img border=0 width=245 height=96
+    src=image012.png v:shapes="Rectangle_x0020_8"></a></td>
+    <td width=19></td>
+   </tr>
+   <tr>
+    <td height=12></td>
+   </tr>
+  </table>
+  </span><![endif]><!--[if !mso & vml]><span style='width:239.25pt;height:90.0pt'></span><![endif]--></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=80 style='mso-height-source:userset;height:60.0pt'>
+  <td height=80 style='height:60.0pt'></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td colspan=6 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=40 style='width:30pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=28 style='width:21pt'></td>
+  <td width=163 style='width:122pt'></td>
+  <td width=155 style='width:116pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
