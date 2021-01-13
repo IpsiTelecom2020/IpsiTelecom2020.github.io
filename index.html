@@ -1,14 +1,11 @@
-<!DOCTYPE html>
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:x="urn:schemas-microsoft-com:office:excel"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta charset="utf-8"/>
-<title>IPSI - Analyse d'image</title>
 <meta name="Excel Workbook Frameset">
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
 <link rel=File-List href="index_fichiers/filelist.xml">
@@ -28,10 +25,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
  var c_lTabs=7;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Analyse d'image";
+ c_rgszSh[0] = "AnalyseÂ d'image";
  c_rgszSh[1] = "SqueletteV4";
  c_rgszSh[2] = "SqueletteV8";
- c_rgszSh[3] = "Distance au fond";
+ c_rgszSh[3] = "DistanceÂ auÂ fond";
  c_rgszSh[4] = "Convolution";
  c_rgszSh[5] = "Recognition";
  c_rgszSh[6] = "Signature";
@@ -64,7 +61,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[6].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -345,6 +342,7 @@ function fnSetActiveSheet(iSh)
   <x:WindowWidth>29040</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
+  <x:ActiveSheet>6</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -352,7 +350,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index_fichiers/sheet001.html" name="frSheet">
+ <frame src="index_fichiers/sheet007.html" name="frSheet">
  <frame src="index_fichiers/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
